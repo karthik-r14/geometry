@@ -1,15 +1,15 @@
 package com.company;
 
 import junit.framework.TestCase;
-import org.junit.Assert.*;
+import org.junit.Assert;
+import org.junit.Test;
 
-/**
- * Created by karthikr on 25/08/15.
- */
-public class MainTest extends TestCase {
+public class MainTest {
 
-    public static void main(String[] args){
-        assertEquals(1,Main.getlength());
+    @Test
+    public void main1() {
 
+        Assert.assertEquals(1, Main.getLength());
 
+    }
 }
